@@ -1,7 +1,8 @@
 # Welcome to my CV
 *Hi, I'm Sreeparvathy*
-Bioinformatician. Wet lab turned dry lab. Seeking a PhD where my work can help someone's life.
+— a curious mind seeking a PhD home where my work can help someone's life.
 
 🔗 **[View my CV →](https://sreeparvathy99.github.io/Sreeparvathy_CV/)**
 
+Wet lab roots. Dry lab skills. Open to any niche.
 
