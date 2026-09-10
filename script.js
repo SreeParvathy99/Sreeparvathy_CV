@@ -2,10 +2,17 @@
 const themeToggle = document.getElementById('theme-toggle');
 const html = document.documentElement;
 
-// Apply saved theme
-if (localStorage.getItem('theme') === 'dark') {
+// Apply theme
+const currentTheme = localStorage.getItem('theme');
+if (currentTheme === 'light') {
+  html.removeAttribute('data-theme');
+  themeToggle.textContent = '◐';
+} else {
   html.setAttribute('data-theme', 'dark');
   themeToggle.textContent = '☀';
+  if (!currentTheme) {
+    localStorage.setItem('theme', 'dark');
+  }
 }
 
 themeToggle.addEventListener('click', () => {
