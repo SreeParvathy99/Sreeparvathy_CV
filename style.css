@@ -1,5 +1,4 @@
 /* ============================================
-   Sreeparvathy — Bioinformatics & Genomics CV
    Green base + coral, gold, sky, purple accents
 ============================================ */
 
@@ -68,8 +67,8 @@ body {
 
 .dna-float, .bacteria, .helix, .microscope-icon, .gene-chip, .heart-pulse {
   position: absolute;
-  opacity: 0.2;                    /* more visible */
-  filter: blur(0.5px);             /* optional: slightly soft */
+  opacity: 0.2;                    
+  filter: blur(0.5px);             
 }
 
 .dna-1 { top: 12%; left: 4%; width: 60px; color: #10b981; animation: float 18s ease-in-out infinite; }
